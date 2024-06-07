@@ -30,5 +30,7 @@ $(0.22-0.37)^2=0.0225$
 パラメータ$w$は関数の形を決定し、$w$が異なる値を取るたびに、生成される誤差も異なります。
 
 誤差と$w$の関係は以下の通りです。
-![image]([./errorFunction.png])
+
+[![image]([./errorFunction.png])](https://github.com/tabiseal/neuralNetwork/blob/main/Normal%20equation;%20gradient%20descent%20&%20backpropagation/errorFunction.png?raw=true)
+
 
