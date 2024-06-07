@@ -31,6 +31,5 @@ $(0.22-0.37)^2=0.0225$
 
 誤差と$w$の関係は以下の通りです。
 
-[![image]([./errorFunction.png])](https://github.com/tabiseal/neuralNetwork/blob/main/Normal%20equation;%20gradient%20descent%20&%20backpropagation/errorFunction.png?raw=true)
 
 
