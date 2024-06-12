@@ -1,3 +1,3 @@
 # 畳み込みニューラルネットワーク（CNN）
-![image](./testResult.png)
+![image](./predictResult2.png)
 
