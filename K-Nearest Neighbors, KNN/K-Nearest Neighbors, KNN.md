@@ -8,12 +8,20 @@ Vote: In classification tasks, the label of the new data point is predicted base
 Simple Example
 Suppose we have a two-dimensional dataset for classification:
 
-x_1	x_2	Label
-1	2	0
-2	3	0
-3	3	1
-6	6	1
-7	7	1
+\begin{tabular}{|c|c|c|}
+\hline
+$x_1$ & $x_2$ & Label \\
+\hline
+1 & 2 & 0 \\
+2 & 3 & 0 \\
+3 & 3 & 1 \\
+6 & 6 & 1 \\
+7 & 7 & 1 \\
+\hline
+\end{tabular}
+
+
+
 We will use the KNN algorithm to predict the label of a new data point $(4,4)$.
 
 Visualization using Python and Matplotlib
