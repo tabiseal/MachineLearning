@@ -56,52 +56,53 @@ Calculate the Euclidean distance between the new data point (4, 4) and each poin
     The Euclidean distance formula is:
    
     
-    $$
-    d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
-    $$
+$$
+d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
+$$
+
+Calculate specific distances:
+
+- The Euclidean distance formula is:
+
+$$
+d = \sqrt{(4-1)^2 + (4-2)^2} = \sqrt{3^2 + 2^2} = \sqrt{9 + 4} = \sqrt{13} \approx 3.61
+$$
+
+- Distance to (2, 3):
+
+$$
+d = \sqrt{(4-2)^2 + (4-3)^2} = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5} \approx 2.24
+$$
+
+- Distance to (3, 3):
+
+$$
+d = \sqrt{(4-3)^2 + (4-3)^2} = \sqrt{1^2 + 1^2} = \sqrt{1 + 1} = \sqrt{2} \approx 1.41
+$$
+
+- Distance to (6, 6):
+
+$$
+d = \sqrt{(4-6)^2 + (4-6)^2} = \sqrt{(-2)^2 + (-2)^2} = \sqrt{4 + 4} = \sqrt{8} \approx 2.83
+$$
+
+- Distance to (7, 7):
+
+$$
+d = \sqrt{(4-7)^2 + (4-7)^2} = \sqrt{(-3)^2 + (-3)^2} = \sqrt{9 + 9} = \sqrt{18} \approx 4.24
+$$
+
     
-    Calculate specific distances:
-    
-    - The Euclidean distance formula is:
-    
-    $$
-    d = \sqrt{(4-1)^2 + (4-2)^2} = \sqrt{3^2 + 2^2} = \sqrt{9 + 4} = \sqrt{13} \approx 3.61
-    $$
-    
-    - Distance to (2, 3):
-    
-    $$
-    d = \sqrt{(4-2)^2 + (4-3)^2} = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5} \approx 2.24
-    $$
-    
-    - Distance to (3, 3):
-    
-    $$
-    d = \sqrt{(4-3)^2 + (4-3)^2} = \sqrt{1^2 + 1^2} = \sqrt{1 + 1} = \sqrt{2} \approx 1.41
-    $$
-    
-    - Distance to (6, 6):
-    
-    $$
-    d = \sqrt{(4-6)^2 + (4-6)^2} = \sqrt{(-2)^2 + (-2)^2} = \sqrt{4 + 4} = \sqrt{8} \approx 2.83
-    $$
-    
-    - Distance to (7, 7):
-    
-    $$
-    d = \sqrt{(4-7)^2 + (4-7)^2} = \sqrt{(-3)^2 + (-3)^2} = \sqrt{9 + 9} = \sqrt{18} \approx 4.24
-    $$
-    
-2. **Select the nearest k points:**：
+3. **Select the nearest k points:**：
 Sort by distance and select the nearest 3 points:
     - (3, 3) distance ≈ 1.41, class 1
     - (6, 6) distance ≈ 2.83, class 1
     - (2, 3) distance ≈ 2.24, class 0
-3. **Vote:**：
+4. **Vote:**：
 Vote on the classes of these 3 nearest neighbors:
     - Class 1: 2 votes
     - Class 0: 1 vote
-4. **Predict the class:**：
+5. **Predict the class:**：
 The predicted class for the new data point (4, 4) is 1 because class 1 has the majority of votes.
 
 
